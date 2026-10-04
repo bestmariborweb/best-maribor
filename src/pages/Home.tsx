@@ -145,7 +145,7 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section with Animated Plasma Background */}
-      <AnimatedHero className="flex items-center" backgroundImage="https://res.cloudinary.com/dow1y3woy/image/upload/v1761038262/Copy_of_DSC_0003_jrzkls.jpg">
+      <AnimatedHero className="flex items-center" backgroundImage="/images/hero.jpg">
         <div className="container relative mx-auto px-4 py-20 md:py-32">
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-6xl lg:text-7xl animate-fade-in">{t('home.hero.title')}</h1>
